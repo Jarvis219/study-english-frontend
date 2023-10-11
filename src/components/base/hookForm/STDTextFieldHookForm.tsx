@@ -88,11 +88,11 @@ const STDTextFieldHookForm = ({
             )}
           </div>
           <label
-            htmlFor='username'
-            className={`transform transition-all absolute top-0 left-0 h-full flex items-center pl-2 text-sm group-focus-within:text-xs peer-valid:text-xs group-focus-within:h-1/2 peer-valid:h-1/2 group-focus-within:-translate-y-full peer-valid:-translate-y-full group-focus-within:pl-0 peer-valid:pl-0 ${
+            htmlFor={name}
+            className={`transform transition-all absolute top-0 left-0 flex items-center text-sm group-focus-within:text-xs peer-valid:text-xs group-focus-within:h-1/2 peer-valid:h-1/2 group-focus-within:-translate-y-full peer-valid:-translate-y-full group-focus-within:pl-0 peer-valid:pl-0 ${
               field?.value || error?.message
                 ? '-translate-y-full pl-0 h-1/2 text-xs'
-                : ''
+                : 'h-full pl-2'
             }`}>
             {label}
           </label>
