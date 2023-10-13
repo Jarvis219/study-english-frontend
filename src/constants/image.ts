@@ -3,7 +3,7 @@ const imagePath = '/assets/images/'
 const iconPath = '/assets/icons/'
 
 export const imageUrl = {
-  defaultImage: `${imagePath}logo.svg`,
+  defaultImage: `${imagePath}bg-white.svg`,
   logo: `${imagePath}logo.svg`,
   eduLogo: `${imagePath}edu-logo.svg`,
 }
